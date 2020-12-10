@@ -24,8 +24,10 @@ STL : Standard Template Library
 Vector : Dynamic array, random access, 
 	insert and delete at the end is fast.
 	insert or delete at other positions takes time.
-Dequeu : dynamic array grow in both the directions.
-
+Deque : dynamic array grow in both the directions.
+	insert at end and at begin is fast.
+	insert at middle takes time.
+List : 
 
 
 
