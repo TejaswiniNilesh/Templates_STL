@@ -1,0 +1,22 @@
+STL : Standard Template Library
+- STL is a part of C++ Standard libary
+- OOPs concentrates on the data aspect
+- Generic programming concentrates on algorithms
+ - STL is an example of generic programming.
+- STL has three basic components : 
+1.Containers : Collection of elements
+2. Iterators : Navigates through containers
+3. Algorithms : 
+
+- Containers types :
+1. Sequenctial : Element has position based on insertion time and place of insertion.
+	Ex. Vector, deque, list.
+2. Associative : Element has position based on sorting criteria.
+	Ex. : set, multiset, map, multimap
+
+- Iterators types :
+1. Input : Read only
+2. Output  :
+3. Forward : 
+4. Bidirectional : 
+5. Random access : 
