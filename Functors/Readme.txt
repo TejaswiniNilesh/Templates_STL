@@ -1,0 +1,8 @@
+- Functor is a class with function call operator overload.
+- Arithmetic Functors : Defined in functional header.
+- ex. divides , modulus, negate
+- Relational functors : Defined in functional header.
+- ex. greater, less, greater_equal less_equal, equal_to, not_equal_to
+- Relational operators can be used with sort algorithms.
+- Logical operator : Defined in functional header.
+- ex. logical_and, logical_or, logical_not, 

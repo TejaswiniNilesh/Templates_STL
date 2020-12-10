@@ -27,7 +27,10 @@ Vector : Dynamic array, random access,
 Deque : dynamic array grow in both the directions.
 	insert at end and at begin is fast.
 	insert at middle takes time.
-List : 
+List : doubly linked list. Does not support random access.
+	accessing elements is linear so worse than vectors and deques.
+	insert and delete is faster. Only links are changed.
+	
 
 
 
