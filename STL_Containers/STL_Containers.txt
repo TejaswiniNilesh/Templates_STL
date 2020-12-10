@@ -15,8 +15,22 @@ STL : Standard Template Library
 	Ex. : set, multiset, map, multimap
 
 - Iterators types :
-1. Input : Read only
-2. Output  :
-3. Forward : 
-4. Bidirectional : 
-5. Random access : 
+1. Input : Read only. istream_iterators
+2. Output  : Write-only. ostream_iterators
+3. Forward : input and output. Does not support operator--. Move only in forward direction.
+4. Bidirectional : forward and backward.
+5. Random access : bidirectional with arithmetic support. Vector, string and deque each provide random access iterators.
+
+Vector : Dynamic array, random access, 
+	insert and delete at the end is fast.
+	insert or delete at other positions takes time.
+Dequeu : dynamic array grow in both the directions.
+
+
+
+
+
+
+
+
+reference :  https://www.bogotobogo.com/cplusplus/stl_vector_list.php
